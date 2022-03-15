@@ -1,0 +1,491 @@
+{
+  "recipes": [
+    {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 23,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 8,
+      "spoonacularScore": 42.0,
+      "healthScore": 7.0,
+      "creditsText": "Foodista.com � The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 271.72,
+      "extendedIngredients": [
+        {
+          "id": 1001,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "solid",
+          "name": "butter",
+          "nameClean": "butter",
+          "original": "1/4 cup butter",
+          "originalName": "butter",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "liquid",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "2 tablespoons olive oil",
+          "originalName": "olive oil",
+          "amount": 2.0,
+          "unit": "tablespoons",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
+            "metric": {
+              "amount": 2.0,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "solid",
+          "name": "onions",
+          "nameClean": "onion",
+          "original": "4 cups onions, sliced",
+          "originalName": "onions, sliced",
+          "amount": 4.0,
+          "unit": "cups",
+          "meta": ["sliced"],
+          "measures": {
+            "us": { "amount": 4.0, "unitShort": "cups", "unitLong": "cups" },
+            "metric": {
+              "amount": 946.352,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 6008,
+          "aisle": "Canned and Jarred",
+          "image": "beef-broth.png",
+          "consistency": "liquid",
+          "name": "canned beef broth",
+          "nameClean": "beef broth",
+          "original": "3 (14 oz) cans beef broth",
+          "originalName": "beef broth",
+          "amount": 42.0,
+          "unit": "oz",
+          "meta": ["canned"],
+          "measures": {
+            "us": { "amount": 42.0, "unitShort": "oz", "unitLong": "ounces" },
+            "metric": {
+              "amount": 1.191,
+              "unitShort": "kilogram",
+              "unitLong": "kilograms"
+            }
+          }
+        },
+        {
+          "id": 14057,
+          "aisle": "Alcoholic Beverages",
+          "image": "red-wine.jpg",
+          "consistency": "liquid",
+          "name": "marsala wine",
+          "nameClean": "marsala",
+          "original": "1/2 cup marsala wine",
+          "originalName": "marsala wine",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 2042,
+          "aisle": "Spices and Seasonings",
+          "image": "thyme.jpg",
+          "consistency": "solid",
+          "name": "dried thyme",
+          "nameClean": "dried thyme",
+          "original": "1 teaspoon dried thyme",
+          "originalName": "dried thyme",
+          "amount": 1.0,
+          "unit": "teaspoon",
+          "meta": ["dried"],
+          "measures": {
+            "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
+            "metric": {
+              "amount": 1.0,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 1102047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt-and-pepper.jpg",
+          "consistency": "solid",
+          "name": "salt and pepper",
+          "nameClean": "salt and pepper",
+          "original": "salt and pepper to taste",
+          "originalName": "salt and pepper to taste",
+          "amount": 1.0,
+          "unit": "serving",
+          "meta": ["to taste"],
+          "measures": {
+            "us": {
+              "amount": 1.0,
+              "unitShort": "serving",
+              "unitLong": "serving"
+            },
+            "metric": {
+              "amount": 1.0,
+              "unitShort": "serving",
+              "unitLong": "serving"
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "solid",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "2 heaping tbsp sugar",
+          "originalName": "heaping tbsp sugar",
+          "amount": 2.0,
+          "unit": "tbsp",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
+            "metric": {
+              "amount": 2.0,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 98915,
+          "aisle": "Bakery/Bread;Frozen",
+          "image": "texas-toast.png",
+          "consistency": "solid",
+          "name": "texas toast",
+          "nameClean": "texas toast",
+          "original": "2 bags Texas Toast croutons",
+          "originalName": "Texas Toast croutons",
+          "amount": 2.0,
+          "unit": "bags",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 2.0, "unitShort": "bags", "unitLong": "bags" },
+            "metric": { "amount": 2.0, "unitShort": "bags", "unitLong": "bags" }
+          }
+        },
+        {
+          "id": 1035,
+          "aisle": "Cheese",
+          "image": "provolone-slices.jpg",
+          "consistency": "solid",
+          "name": "provolone cheese",
+          "nameClean": "provolone",
+          "original": "8 slices provolone cheese",
+          "originalName": "provolone cheese",
+          "amount": 8.0,
+          "unit": "slices",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 8.0, "unitShort": "slice", "unitLong": "slices" },
+            "metric": {
+              "amount": 8.0,
+              "unitShort": "slice",
+              "unitLong": "slices"
+            }
+          }
+        },
+        {
+          "id": 1040,
+          "aisle": "Cheese",
+          "image": "Swiss-cheese.jpg",
+          "consistency": "solid",
+          "name": "swiss cheese",
+          "nameClean": "swiss cheese",
+          "original": "2 slices Swiss cheese, diced",
+          "originalName": "Swiss cheese, diced",
+          "amount": 2.0,
+          "unit": "slices",
+          "meta": ["diced"],
+          "measures": {
+            "us": { "amount": 2.0, "unitShort": "slice", "unitLong": "slices" },
+            "metric": {
+              "amount": 2.0,
+              "unitShort": "slice",
+              "unitLong": "slices"
+            }
+          }
+        },
+        {
+          "id": 1033,
+          "aisle": "Cheese",
+          "image": "parmesan.jpg",
+          "consistency": "solid",
+          "name": "parmesan cheese",
+          "nameClean": "parmesan",
+          "original": "1/4 cup grated Parmesan cheese",
+          "originalName": "grated Parmesan cheese",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": ["grated"],
+          "measures": {
+            "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        }
+      ],
+      "id": 643362,
+      "title": "French Onion Marsala Soup",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "sourceUrl": "https://www.foodista.com/recipe/Y6YT6DKN/french-onion-marsala-soup",
+      "image": "https://spoonacular.com/recipeImages/643362-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "French Onion Marsala Soup is a main course that serves 4. One portion of this dish contains roughly <b>26g of protein</b>, <b>40g of fat</b>, and a total of <b>596 calories</b>. For <b>$2.72 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. A mixture of provolone cheese, parmesan cheese, onions, and a handful of other ingredients are all it takes to make this recipe so tasty. It is a <b>rather cheap</b> recipe for fans of Mediterranean food. From preparation to the plate, this recipe takes roughly <b>roughly 45 minutes</b>. This recipe from Foodista has 8 fans. It will be a hit at your <b>Autumn</b> event. With a spoonacular <b>score of 40%</b>, this dish is rather bad. <a href=\"https://spoonacular.com/recipes/le-cafe-ile-st-louis-onion-soup-gratinee-this-is-a-new-take-on-the-classic-french-onion-soup-599269\">Le Cafe Ile St. Louis Onion Soup Gratinee � this is a new take on the classic French Onion Soup</a>, <a href=\"https://spoonacular.com/recipes/french-onion-soup-topped-french-bread-pizzas-and-salad-with-dijon-vinaigrette-312082\">French Onion Soup Topped French Bread Pizzas and Salad with Dijon Vinaigrette</a>, and <a href=\"https://spoonacular.com/recipes/crockpot-french-onion-soup-with-cheesy-french-toast-685740\">Crockpot French Onion Soup with Cheesy French Toast</a> are very similar to this recipe.",
+      "cuisines": ["Mediterranean", "French", "European"],
+      "dishTypes": ["soup", "lunch", "main course", "main dish", "dinner"],
+      "diets": [],
+      "occasions": ["fall", "winter"],
+      "instructions": "Melt butter with olive oil in a large pot over medium heat. Add onions and stir continually until translucent. Add beef broth, marsala and thyme. Simmer for 30 minutes. Add sugar and season with salt and pepper. Be careful not to over salt!\nLadle soup into oven-safe bowls and place a handful of croutons in each. Sprinkle parmesan and swiss cheese and layer 2 slices of provolone on top. Place bowls on cookie sheet and broil in the preheated oven until cheese bubbles and browns.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Melt butter with olive oil in a large pot over medium heat.",
+              "ingredients": [
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Add onions and stir continually until translucent.",
+              "ingredients": [
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Add beef broth, marsala and thyme. Simmer for 30 minutes.",
+              "ingredients": [
+                {
+                  "id": 6008,
+                  "name": "beef broth",
+                  "localizedName": "beef broth",
+                  "image": "beef-broth.png"
+                },
+                {
+                  "id": 14057,
+                  "name": "marsala",
+                  "localizedName": "marsala",
+                  "image": "red-wine.jpg"
+                },
+                {
+                  "id": 2049,
+                  "name": "thyme",
+                  "localizedName": "thyme",
+                  "image": "thyme.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": { "number": 30, "unit": "minutes" }
+            },
+            {
+              "number": 4,
+              "step": "Add sugar and season with salt and pepper. Be careful not to over salt!",
+              "ingredients": [
+                {
+                  "id": 1102047,
+                  "name": "salt and pepper",
+                  "localizedName": "salt and pepper",
+                  "image": "salt-and-pepper.jpg"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Ladle soup into oven-safe bowls and place a handful of croutons in each.",
+              "ingredients": [
+                {
+                  "id": 18242,
+                  "name": "croutons",
+                  "localizedName": "croutons",
+                  "image": "croutons.png"
+                },
+                {
+                  "id": 0,
+                  "name": "soup",
+                  "localizedName": "soup",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                },
+                {
+                  "id": 404630,
+                  "name": "ladle",
+                  "localizedName": "ladle",
+                  "image": "ladle.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "step": "Sprinkle parmesan and swiss cheese and layer 2 slices of provolone on top.",
+              "ingredients": [
+                {
+                  "id": 1040,
+                  "name": "swiss cheese",
+                  "localizedName": "swiss cheese",
+                  "image": "Swiss-cheese.jpg"
+                },
+                {
+                  "id": 1035,
+                  "name": "provolone",
+                  "localizedName": "provolone",
+                  "image": "provolone-slices.jpg"
+                },
+                {
+                  "id": 1033,
+                  "name": "parmesan",
+                  "localizedName": "parmesan",
+                  "image": "parmesan.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Place bowls on cookie sheet and broil in the preheated oven until cheese bubbles and browns.",
+              "ingredients": [
+                {
+                  "id": 1041009,
+                  "name": "cheese",
+                  "localizedName": "cheese",
+                  "image": "cheddar-cheese.png"
+                },
+                {
+                  "id": 10118192,
+                  "name": "cookies",
+                  "localizedName": "cookies",
+                  "image": "shortbread-cookies.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                },
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/french-onion-marsala-soup-643362"
+    }
+  ]
+}

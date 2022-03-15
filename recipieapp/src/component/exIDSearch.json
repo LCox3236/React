@@ -1,0 +1,382 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "weightWatcherSmartPoints": 29,
+  "gaps": "no",
+  "lowFodmap": false,
+  "aggregateLikes": 2,
+  "spoonacularScore": 73.0,
+  "healthScore": 31.0,
+  "creditsText": "Foodista.com � The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 351.33,
+  "extendedIngredients": [
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "solid",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "1 avocado, thinly sliced",
+      "originalName": "avocado, thinly sliced",
+      "amount": 1.0,
+      "unit": "",
+      "meta": ["thinly sliced"],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "", "unitLong": "" },
+        "metric": { "amount": 1.0, "unitShort": "", "unitLong": "" }
+      }
+    },
+    {
+      "id": 2009,
+      "aisle": "Spices and Seasonings",
+      "image": "chili-powder.jpg",
+      "consistency": "solid",
+      "name": "chili powder",
+      "nameClean": "chili powder",
+      "original": "1 tsp Chili Powder",
+      "originalName": "Chili Powder",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
+        "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce",
+      "image": "cilantro.png",
+      "consistency": "solid",
+      "name": "cilantro",
+      "nameClean": "cilantro",
+      "original": "� cup cilantro, chopped",
+      "originalName": "cilantro, chopped",
+      "amount": 0.75,
+      "unit": "cup",
+      "meta": ["chopped"],
+      "measures": {
+        "us": { "amount": 0.75, "unitShort": "cups", "unitLong": "cups" },
+        "metric": {
+          "amount": 177.441,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1002014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "solid",
+      "name": "cumin",
+      "nameClean": "cumin",
+      "original": "2 tsp Cumin",
+      "originalName": "Cumin",
+      "amount": 2.0,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 2.0, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 10023572,
+      "aisle": "Meat",
+      "image": "fresh-ground-beef.jpg",
+      "consistency": "solid",
+      "name": "ground beef",
+      "nameClean": "ground chuck",
+      "original": "2 lb ground beef",
+      "originalName": "ground beef",
+      "amount": 2.0,
+      "unit": "lb",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 2.0, "unitShort": "lb", "unitLong": "pounds" },
+        "metric": { "amount": 907.185, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 18350,
+      "aisle": "Bakery/Bread",
+      "image": "hamburger-bun.jpg",
+      "consistency": "solid",
+      "name": "hamburger buns",
+      "nameClean": "hamburger bun",
+      "original": "4 Hamburger Buns, Toasted",
+      "originalName": "Hamburger Buns, Toasted",
+      "amount": 4.0,
+      "unit": "",
+      "meta": ["toasted"],
+      "measures": {
+        "us": { "amount": 4.0, "unitShort": "", "unitLong": "" },
+        "metric": { "amount": 4.0, "unitShort": "", "unitLong": "" }
+      }
+    },
+    {
+      "id": 2028,
+      "aisle": "Spices and Seasonings",
+      "image": "paprika.jpg",
+      "consistency": "solid",
+      "name": "paprika",
+      "nameClean": "paprika",
+      "original": "1 tsp Paprika",
+      "originalName": "Paprika",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
+        "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "solid",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1 tsp Pepper",
+      "originalName": "Pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
+        "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
+      }
+    },
+    {
+      "id": 1025,
+      "aisle": "Cheese",
+      "image": "pepper-jack-cheese.jpg",
+      "consistency": "solid",
+      "name": "pepper jack cheese",
+      "nameClean": "pepperjack cheese",
+      "original": "4 Slices Pepper jack Cheese",
+      "originalName": "Pepper jack Cheese",
+      "amount": 4.0,
+      "unit": "Slices",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 4.0, "unitShort": "slice", "unitLong": "slices" },
+        "metric": { "amount": 4.0, "unitShort": "slice", "unitLong": "slices" }
+      }
+    },
+    {
+      "id": 10011282,
+      "aisle": "Produce",
+      "image": "red-onion.png",
+      "consistency": "solid",
+      "name": "red onion",
+      "nameClean": "red onion",
+      "original": "8 thin slices red onion",
+      "originalName": "thin slices red onion",
+      "amount": 8.0,
+      "unit": "slices",
+      "meta": ["red", "thin"],
+      "measures": {
+        "us": { "amount": 8.0, "unitShort": "slice", "unitLong": "slices" },
+        "metric": { "amount": 8.0, "unitShort": "slice", "unitLong": "slices" }
+      }
+    },
+    {
+      "id": 6164,
+      "aisle": "Pasta and Rice;Ethnic Foods",
+      "image": "salsa.png",
+      "consistency": "solid",
+      "name": "salsa",
+      "nameClean": "salsa",
+      "original": "8 tablespoons salsa",
+      "originalName": "salsa",
+      "amount": 8.0,
+      "unit": "tablespoons",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 8.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
+        "metric": { "amount": 8.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "solid",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1 tsp Salt",
+      "originalName": "Salt",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
+        "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
+      }
+    }
+  ],
+  "id": 663050,
+  "title": "Tex-Mex Burger",
+  "readyInMinutes": 15,
+  "servings": 4,
+  "sourceUrl": "http://www.foodista.com/recipe/NSYCCHLT/tex-mex-burger",
+  "image": "https://spoonacular.com/recipeImages/663050-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Tex-Mex Burger might be just the main course you are searching for. For <b>$3.51 per serving</b>, this recipe <b>covers 36%</b> of your daily requirements of vitamins and minerals. One serving contains <b>910 calories</b>, <b>52g of protein</b>, and <b>63g of fat</b>. Only a few people made this recipe, and 1 would say it hit the spot. This recipe is typical of American cuisine. Head to the store and pick up onion, ground beef, cumin, and a few other things to make it today. To use up the salt you could follow this main course with the <a href=\"https://spoonacular.com/recipes/apple-turnovers-recipe-48175\">Apple Turnovers Recipe</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>15 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 75%</b>. This score is solid. Try <a href=\"https://spoonacular.com/recipes/tex-mex-burgers-912878\">Tex-Mex Burgers</a>, <a href=\"https://spoonacular.com/recipes/tex-mex-chopped-chicken-salad-912384\">Tex-Mex Chopped Chicken Salad</a>, and <a href=\"https://spoonacular.com/recipes/creamy-tex-mex-pasta-salad-926252\">Creamy Tex-Mex Pasta Salad</a> for similar recipes.",
+  "cuisines": ["American"],
+  "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+  "diets": [],
+  "occasions": [],
+  "winePairing": { "pairedWines": [], "pairingText": "", "productMatches": [] },
+  "instructions": "<ol><li>Preheat broiler. </li><li>Heat large frying pan to medium high heat. </li><li>Make patties: Take the ground beef, add salsa and spices. Mix together till evenly distributed. Place patties on frying pan and cook for 3 minutes and 30 seconds.</li><li>Flip over and place 1 slice of cheese on each patty. Cook for another 3 minutes and 30 seconds. Meanwhile, get out all toppings and toast buns. </li><li>Once done, let burger rest for 5 minutes on a plate.</li><li>Assemble burger: Place patty on bun. Top with 1 TBSP Salsa, then 2 slices of red onion. Place  of the cilantro on red onion and then place avocado on top bun. Add bun to burger and serve.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat broiler.",
+          "ingredients": [],
+          "equipment": [
+            {
+              "id": 405914,
+              "name": "broiler",
+              "localizedName": "broiler",
+              "image": "oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Heat large frying pan to medium high heat. Make patties: Take the ground beef, add salsa and spices.",
+          "ingredients": [
+            {
+              "id": 10023572,
+              "name": "ground beef",
+              "localizedName": "ground beef",
+              "image": "fresh-ground-beef.jpg"
+            },
+            {
+              "id": 2035,
+              "name": "spices",
+              "localizedName": "spices",
+              "image": "spices.png"
+            },
+            {
+              "id": 6164,
+              "name": "salsa",
+              "localizedName": "salsa",
+              "image": "salsa.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "pan.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Mix together till evenly distributed.",
+          "ingredients": [],
+          "equipment": []
+        }
+      ]
+    },
+    {
+      "name": "Place patties on frying pan and cook for 3 minutes and 30 seconds.Flip over and place 1 slice of cheese on each patty. Cook for another 3 minutes and 30 seconds. Meanwhile, get out all toppings and toast buns. Once done, let burger rest for 5 minutes on a plate.Assemble burger",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place patty on bun. Top with 1 TBSP Salsa, then 2 slices of red onion.",
+          "ingredients": [
+            {
+              "id": 10011282,
+              "name": "red onion",
+              "localizedName": "red onion",
+              "image": "red-onion.png"
+            },
+            {
+              "id": 6164,
+              "name": "salsa",
+              "localizedName": "salsa",
+              "image": "salsa.png"
+            },
+            {
+              "id": 0,
+              "name": "roll",
+              "localizedName": "roll",
+              "image": "dinner-yeast-rolls.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 2,
+          "step": "Place  of the cilantro on red onion and then place avocado on top bun.",
+          "ingredients": [
+            {
+              "id": 10011282,
+              "name": "red onion",
+              "localizedName": "red onion",
+              "image": "red-onion.png"
+            },
+            {
+              "id": 11165,
+              "name": "cilantro",
+              "localizedName": "cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            },
+            {
+              "id": 0,
+              "name": "roll",
+              "localizedName": "roll",
+              "image": "dinner-yeast-rolls.jpg"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 3,
+          "step": "Add bun to burger and serve.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "roll",
+              "localizedName": "roll",
+              "image": "dinner-yeast-rolls.jpg"
+            }
+          ],
+          "equipment": []
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularSourceUrl": "https://spoonacular.com/tex-mex-burger-663050"
+}
