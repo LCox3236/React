@@ -1,11 +1,14 @@
 .App {
   text-align: center;
   width: 100%;
+  background-color: #282c34;
+  color: white;
 }
 
 #titleHeading {
   font-weight: bold;
   font-size: xx-large;
+  padding-bottom: 10px;
 }
 
 /* .App-header {
@@ -28,7 +31,8 @@
 }
 
 .col {
-  border: 1px solid red;
+  border: 1px solid;
+  margin-right: 15px;
 }
 
 .top-row {
@@ -36,6 +40,7 @@
 }
 
 #searchBoxContainer {
+  margin-bottom: 10px;
 }
 #searchBox {
   width: 75%;
@@ -57,4 +62,45 @@
   font-weight: bold;
   text-align: left;
   padding-top: 10px;
+}
+#fullRecipeContainer {
+  margin-top: 10px;
+  display: flex;
+}
+#fullRecipeHeaderContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid;
+}
+#fullRecipeHeader {
+  grid-column: 1/-1;
+  font-weight: bold;
+}
+#fullRecipeHeaderTime {
+}
+#fullRecipeHeaderServings {
+}
+#fullRecipeIngredientsContainer {
+  margin-left: 10px;
+  padding-right: 5px;
+  text-align: left;
+}
+#fullRecipeIngredientsHeader {
+  text-decoration: underline;
+}
+.fullRecipeIngredient {
+}
+#fullRecipeInstructionsContainer {
+  margin-left: 5px;
+  padding-left: 15px;
+  border-left: 1px solid;
+}
+#fullRecipeInstructionsHeader {
+  text-decoration: underline;
+}
+.fullRecipeInstruction {
+}
+#fullRecipeImg {
+  margin-top: 30px;
+  border: 8px solid black;
 }

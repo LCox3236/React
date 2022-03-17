@@ -29,6 +29,12 @@ function App() {
   //   console.log(searchResults)
   // },[searchResults])
 
+  // useEffect(() => {
+  //   if (!currentRecipeInfo) return;
+  //   console.log(currentRecipeInfo);
+  //   return () => {};
+  // }, [currentRecipeInfo]);
+
   const searchRecipes = () => {
     if (!search) return;
     let searchQuery =
@@ -66,6 +72,16 @@ function App() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             ></input>
+            {/* <div>
+              <input
+                type="checkbox"
+                id="coding"
+                name="interest"
+                value="coding"
+              />
+              <label for="coding">Coding</label>
+            </div> */}
+
             <button id="searchButton" onClick={searchRecipes}>
               SEARCH
             </button>
@@ -81,15 +97,7 @@ function App() {
             ))}
           </section>
         </Col>
-        <Col>
-          <DisplayFullRecipe recipe={currentRecipeInfo} />
-          {/* {currentRecipeInfo.map((recipe, index) => (
-            <DisplayFullRecipe 
-              recipe = {recipe}
-              key = {index}
-            />
-          ))} */}
-        </Col>
+        <Col>{<DisplayFullRecipe recipe={currentRecipeInfo} />}</Col>
       </Row>
     </article>
   );
