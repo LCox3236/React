@@ -11,7 +11,8 @@ import Row from "react-bootstrap/Row";
 import DisplayFullRecipe from "./component/DisplayFullRecipe";
 
 const URL = "https://api.spoonacular.com/recipes";
-const APIKEY = "apiKey=35625ab39e914c87a28abd562499f05d";
+const API_KEY = process.env.API_KEY;
+//console.log(process.env.API_KEY);
 
 function App() {
   const [search, setSearch] = useState("");
@@ -19,28 +20,12 @@ function App() {
   const [currentRecipeID, setCurrentRecipeID] = useState("");
   const [currentRecipeInfo, setCurrentRecipeInfo] = useState([]);
 
-  // useEffect(() =>{
-  //   if(!search) return
-  //   console.log(search)
-  // },[search])
-
-  // useEffect(() =>{
-  //   if(!searchResults)return
-  //   console.log(searchResults)
-  // },[searchResults])
-
-  // useEffect(() => {
-  //   if (!currentRecipeInfo) return;
-  //   console.log(currentRecipeInfo);
-  //   return () => {};
-  // }, [currentRecipeInfo]);
-
   const searchRecipes = () => {
     if (!search) return;
     let searchQuery =
       URL + "/complexSearch/" + "?query=" + search + "&".toLowerCase();
     axios
-      .request(searchQuery + APIKEY)
+      .request(searchQuery + API_KEY)
       .then((response) => {
         setSearchResults(response.data["results"]);
       })
@@ -51,7 +36,7 @@ function App() {
     setCurrentRecipeID(id);
     let searchQuery = (URL + "/" + id + "/information?").toLowerCase();
     axios
-      .request(searchQuery + APIKEY)
+      .request(searchQuery + API_KEY)
       .then((response) => {
         setCurrentRecipeInfo(response.data);
         // console.log(response.data)
