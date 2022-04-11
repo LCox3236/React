@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  color: black;
+}
+#navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+.navPageButton {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 1px solid;
+}
