@@ -1,3 +1,7 @@
+This project is based off this youtube video, as my guided intro into React development
+https://www.youtube.com/watch?v=Xcet6msf3eE
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
