@@ -1,3 +1,10 @@
+![countries](https://user-images.githubusercontent.com/83649281/163556790-fa37f3dc-3c95-41e6-b27b-59415ac7e697.png)
+
+
+![countriesInfo](https://user-images.githubusercontent.com/83649281/163556797-47cf8b78-d9e2-4290-904b-78592610c1ce.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
