@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+/* WEATHER DATA DISPLAY */
+#mainHeader {
+}
+#MainContainer {
+}
+#DateDisplay {
+}
+#TempDisplay {
+}
+#FeelsLikeDisplay {
+}
+
+/* HOURLY DISPLAY */
+#HourlyDisplayContainer {
+}
+#HourlyDisplayHeader {
+}
+#HourlyInnerContainer {
+  overflow-y: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  align-self: center;
+  justify-self: center;
+  width: 75%;
+  margin: 0 auto;
+
+  border: solid 1px white;
+}
+.HourContainer {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px;
+  max-width: 130px;
+}
+#HourDate {
+}
+#HourTime {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* DAILY DISPLAY */
+#DailyDisplayContainer {
+  display: flex;
+  flex-direction: column;
+}
+#DailyDisplayHeader {
+  text-decoration: bold;
+}
+#DayInnerContainer {
+  display: flex;
+  flex-direction: row;
+  /* overflow: auto; */
+  /* white-space: nowrap; */
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.DayContainer {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px;
+  max-width: 110px;
+}
+#DayDate {
+}
+#DayDescription {
+}
+#DayIcon {
+  width: 100%;
+}
