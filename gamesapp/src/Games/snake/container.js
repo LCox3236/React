@@ -1,11 +1,11 @@
 import React from "react";
-import Board from "./components/board";
+import Game from "./components/game";
 
 export default function snake() {
   return (
     <section>
       <h1>SNAKE</h1>
-      <Board rows="10" cols="10" />
+      <Game rows="20" cols="20" />
     </section>
   );
 }

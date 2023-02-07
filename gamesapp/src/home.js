@@ -5,9 +5,9 @@ export default function home() {
   return (
     <div>
       <h1>HOME</h1>
-      <Link to="/snake" className="navPageButton">
+      {/* <Link to="/snake" className="navPageButton">
         SNAKE
-      </Link>
+      </Link> */}
     </div>
   );
 }
